@@ -1,14 +1,13 @@
 
 import './App.css'
 import Navbar from './Components/Navbar'
-import PriceOptions from './Components/PriceOptions'
 
 function App() {
 
   return (
     <>
       <Navbar></Navbar>
-      <PriceOptions></PriceOptions> 
+      {/* <h1 className='text-4xl text-emerald-400 text-center'>Vite + React</h1> */}
     </>
   )
 }
